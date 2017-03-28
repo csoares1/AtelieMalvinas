@@ -1418,13 +1418,13 @@ textarea .form-control {
 @media(max-width:360px ){
   .imglogo{padding-right: 10px;padding-left: 10px;}
   .control img { top: 210px;}
-  .superior1{width: 100%; height: 25%;}
+  .superior1{width: 100%; height: 30%;}
   .superior2{width:90%; height:40%;top:180px;}
   .superior1 h2{font-size: 0.75em;}
   .superior1 p {font-size: smaller;}
   .superior2 h3{font-size: 1.0em;}
   .imglinhatop{ max-width:300px;max-height:600px;width: auto;height: auto;}
-  .imglinhafoot{ max-width:99px;max-height:100px;width: auto;height: auto; position:absolute;top:515px;left:90px}
+  .imglinhafoot{ max-width:0px;max-height:100px;width: auto;height: auto; position:absolute;top:515px;left:90px}
   #about h2{font-size: 1.5em}
 	.slider_caption {margin-top: 28%;}
 	.slider_caption > a {margin-top: 10px;}
