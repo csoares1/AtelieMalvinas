@@ -1313,7 +1313,7 @@ textarea .form-control {
 			start responsive style
 =====================///////////////////////*/
 @media (min-width: 1200px)  {
-  .imglogo{padding-right: 10px;padding-left: 390px;}
+  .imglogo{padding-right: 10px;padding-left: 410px;}
   .navbarcentralizado{padding-right: 460px;padding-left: 10px;}
   .imglinhafoot{ max-width:480px;max-height:500px;width: auto;height: auto;}
   .superior1 h2{font-size: 0.75em;}
@@ -1343,11 +1343,47 @@ textarea .form-control {
   .subscr_btn {width: 24%;}
 
 }
+@media (min-width: 832px) and (max-width: 991px) {
+  .imglogo{padding-right: 10px;padding-left: 320px;}
+  .control img { top: 20px;}
+  .navbarcentralizado{padding-right: 390px;padding-left: 100px;}
+  .superior1{width: 60%; height: 40%;top:70px}
+  .superior2{width:60%; height:40%;top:50px;}
+  .superior1 h2{font-size: 1.0em;}
+  .superior1 p {font-size: 1.0em;}
+  .superior2 h3{font-size: 1.0em;}
+  .imglinhatop{ max-width:300px;max-height:600px;width: auto;height: auto;}
+  .imglinhafoot{ max-width:350px;max-height:350px;width: auto;height: auto;position:absolute;top:25px;}
+  #about h2{font-size: 1.2em;line-height: 27px;}
+  .navbar-default .navbar-nav > li > a {font-size: 13px;padding: 15px 6px;}
+  .navbar-brand {font-size: 28px;}
+  #slides{height: 600px !important;}
+  .slider_caption > h2 {font-size: 48px;line-height: 48px;}
+  .slider_caption > p {font-size: 18px;}
+  .about_area {padding-bottom: 80px;}
+  .about_slider{margin-top: 30px;}
+  .single_iteam {text-align: center;}
+  .single_iteam img {display: inline-block;}
+  .single_service .service_title {font-size: 18px;}
+  .single_service > .service_title:after {left: 33%;}
+  .single_price > h3 {font-size: 20px;line-height: 80px;}
+  .single_price .price > h4 {font-size: 50px;line-height: 50px;}
+  .price_features li {font-size: 13px;line-height: 15px;}
+  .price_btn {font-size: 13px;padding: 10px 15px;}
+  .blog_slider .slick-prev {left: 88.5%;}
+  .testi_content {width: 100%;}
+  .clients_slider .slick-prev {left: 45%;}
+  .clients_slider .slick-next {right: 45%;}
+  .subscr_btn {font-size: 15px;}
+  .single_contact_feaured {margin-bottom: 30px;}
 
-@media (min-width: 768px) and (max-width: 991px) {
+}
+
+
+@media (min-width: 768px) and (max-width: 832px) {
   .imglogo{padding-right: 10px;padding-left: 250px;}
   .control img { top: 20px;}
-  .navbarcentralizado{padding-right: 350px;padding-left: 100px;}
+  .navbarcentralizado{padding-right: 300px;padding-left: 100px;}
   .superior1{width: 60%; height: 40%;top:70px}
   .superior2{width:60%; height:40%;top:50px;}
   .superior1 h2{font-size: 1.0em;}
