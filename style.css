@@ -1344,9 +1344,9 @@ textarea .form-control {
 
 }
 @media (min-width: 832px) and (max-width: 991px) {
-  .imglogo{padding-right: 10px;padding-left: 320px;}
+  .imglogo{padding-right: 10px;padding-left: 250px;}
   .control img { top: 20px;}
-  .navbarcentralizado{padding-right: 390px;padding-left: 100px;}
+  .navbarcentralizado{padding-right: 300px;padding-left: 100px;}
   .superior1{width: 60%; height: 40%;top:70px}
   .superior2{width:60%; height:40%;top:50px;}
   .superior1 h2{font-size: 1.0em;}
