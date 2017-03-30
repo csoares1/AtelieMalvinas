@@ -1323,7 +1323,7 @@ textarea .form-control {
 }
 
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1199px) {
   .imglogo{padding-right: 10px;padding-left: 450px;}
   .navbarcentralizado{padding-right: 390px;padding-left: 100px;}
   .imglinhafoot{ max-width:480px;max-height:500px;width: auto;height: auto;}
@@ -1343,8 +1343,28 @@ textarea .form-control {
   .subscr_btn {width: 24%;}
 
 }
+@media (min-width: 1133px) {
+  .imglogo{padding-right: 10px;padding-left: 350px;}
+  .navbarcentralizado{padding-right: 350px;padding-left: 100px;}
+  .imglinhafoot{ max-width:480px;max-height:500px;width: auto;height: auto;}
+  .superior1 h2{font-size: 1.2em;}
+  .superior1 p {font-size: smaller;}
+  .superior2 h3{font-size: 1.0em;}
+    #about h2{font-size: 1.5em}
+  .slider_caption > h2 {width: 100%;}
+  .blog_slider .slick-prev {left: 91%;}
+  #map_canvas{height: 404px;}
+  /*only firefox browser*/
+  @-moz-document url-prefix() {
+  #map_canvas{height: 404px;	}
+  }
+  .slider_caption {margin-top: 25%;}
+  .subscribe_mail {width: 76%;}
+  .subscr_btn {width: 24%;}
+
+}
 @media (min-width: 832px) and (max-width: 991px) {
-  .imglogo{padding-right: 10px;padding-left: 250px;}
+  .imglogo{padding-right: 10px;padding-left: 410px;}
   .control img { top: 20px;}
   .navbarcentralizado{padding-right: 300px;padding-left: 100px;}
   .superior1{width: 60%; height: 40%;top:70px}
