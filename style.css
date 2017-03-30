@@ -1340,8 +1340,8 @@ textarea .form-control {
 
 @media(max-width:1133px ){
   .imglogo{padding-right: 10px;padding-left: 350px;}
-  .navbarcentralizado{padding-right: 390px;padding-left: 10px;}
-  .imglinhafoot{ max-width:330px;max-height:500px;width: auto;height: auto;}
+  .navbarcentralizado{padding-right: 330px;padding-left: 10px;}
+  .imglinhafoot{ max-width:450px;max-height:500px;width: auto;height: auto;}
   .superior1 h2{font-size: 1.2em;}
   .superior1 p {font-size: 1.0em;}
   .superior2 h3{font-size: 1.0em;}
